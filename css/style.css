@@ -1,0 +1,32 @@
+* {
+  --main_text_color: #595A4A;
+  --nav_color: #C1EABA;
+
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  color: var(--main_text_color);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: #C1EABA;
+  height: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  color: #595A4A;
+  text-decoration: none;
+}
+
+div.main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
