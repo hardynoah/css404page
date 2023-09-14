@@ -16,8 +16,12 @@ nav {
   background-color: #C1EABA;
   height: 2rem;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
+}
+
+nav > * {
+  padding-left: 1%;
 }
 
 a {
@@ -28,5 +32,6 @@ a {
 div.main-content {
   display: flex;
   flex-direction: row;
+  align-content: space-evenly;
   align-items: center;
 }
