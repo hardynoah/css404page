@@ -40,6 +40,10 @@ footer > * {
   text-align: center;
 }
 
+nav > * {
+  padding-left: 1%;
+}
+
 a {
   color: #595A4A;
   text-decoration: none;
