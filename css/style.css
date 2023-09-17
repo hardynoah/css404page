@@ -8,20 +8,36 @@
 
 body {
   color: var(--main_text_color);
+  background-color: #F0E0F04F;
+  height: 1200px;
 }
 
-nav {
+nav, footer {
   display: flex;
   flex-direction: row;
   background-color: #C1EABA;
-  height: 2rem;
+  height: 6rem;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  position:fixed;
+  width: 100%
+}
+
+footer {
+  bottom:0;
 }
 
 nav > * {
   padding-left: 1%;
+  font-size: 2.5rem;
+}
+
+footer > * {
+  padding-left: 1%;
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: center;
 }
 
 a {
@@ -29,9 +45,18 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 40%;
+}
+
 div.main-content {
   display: flex;
   flex-direction: row;
   align-content: space-evenly;
   align-items: center;
+  justify-content: center;
+}
+
+section > * {
+  padding-bottom: 1%;
 }
