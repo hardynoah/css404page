@@ -73,8 +73,13 @@ section > * {
 }
 
 h1 {
-  font-size: 14rem;
+  font-size: 16rem;
   font-weight: 900;
+  margin-bottom: 0%;
+}
+
+hr {
+  max-width: 100%;
 }
 
 .headHomeButton {
@@ -91,4 +96,15 @@ h1 {
 
 .headHomeButton:hover {
   background-color: var(--main_text_color);
+}
+
+@media screen and (max-width: 768px){
+  .main-content {
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+
+  .main-text {
+    justify-content: center !important;
+  }
 }
